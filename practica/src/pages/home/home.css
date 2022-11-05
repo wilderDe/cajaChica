@@ -1,0 +1,93 @@
+
+/**********  MENU ASIDE  ***********/
+.aside{
+    width: 15%;
+    color: #000;
+    background-image: linear-gradient(to bottom, #f1f6f72a, #EED343);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    
+}
+.opciones{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background:none;
+    color: rgb(8, 8, 8);
+    font-size: 1.2em;
+}
+.btn:hover{
+    background-image: linear-gradient(to left, #00b6da0e, #e47d1c4f);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.active{
+    background-color: #FAC0C0;
+    border-radius: 5px;
+}
+.perfil{
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/**********  Cuerpo  ***********/
+.main{
+    background-color: #f0f8ff;
+    position: absolute;
+    width: 85%;
+    min-height: 100vh;
+    right: 0;
+    
+}
+/********** HEADER   **********/
+.header{
+    background-color: #feffe1;
+    box-shadow: 1px 1px 6px 2px  rgba(68, 72, 73, 0.582);
+    width: 96%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header-title{
+    *background: -webkit-linear-gradient(left top, #881f1f, rgb(26, 236, 225));
+    *background: linear-gradient(to bottom right, #772b8a, rgb(26, 236, 225));
+    *-webkit-background-clip: text;  
+    *-webkit-text-fill-color: transparent; 
+    color: #000;
+    font-size: 2.5em;
+}
+.header-left > p{
+    margin-top: 0.7em;
+    font-size: 1.2em;
+}
+
+/********  Secciones *****/
+.secciones{    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+   
+}

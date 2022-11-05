@@ -1,0 +1,166 @@
+/*** CLASES GENERALES ****/
+.m-left-20{
+    margin-left: 20px;
+}
+
+.btn-cerrar{
+    padding: 10px 30px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to left, #e47b5b91, #f12f15fd);
+    color: rgba(255, 255, 255, 0.918);
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn-cerrar:hover{
+    background-color: rgba(218, 116, 116, 0.788);
+}
+.btn-options{
+    padding: 10px 30px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 15px;
+    border: none;
+
+    background-color: #862F14;
+    color: rgba(255, 255, 255, 0.918);
+}
+.btn-options:hover{
+    background-image: linear-gradient(to left, #c7bf4c, #d66a39);
+}
+.contenedor{
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.219);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    background-color: #feffe1;
+}
+
+.btn-buscar{
+    
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    
+    border-radius: 7px;
+    border-bottom: 1px solid rgba(119, 117, 117, 0.932);
+    font-size: 1em;
+
+    background-image: linear-gradient(to bottom, #e6e9aa71, #16145f27);
+
+}
+.caja_btn{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.btn-buscar-fecha{
+    width: 290px;
+}
+/*** EDITAR CLIENTE ***/
+.informacion{
+    display: flex;
+    padding: 20px;
+}
+.mas-info{
+    margin-bottom: 5px;
+}
+.btn-info{
+    margin-top: 20px;
+}
+.info-left{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+/***** TABLAS */
+.table-20{
+    width: 40%;
+}
+.tablas{
+    width: 99%;
+    text-align: start;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table-th{
+    font-weight: bold;
+    font-size: 17px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgba(119, 117, 117, 0.253);
+
+}
+.table-td{
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgba(119, 117, 117, 0.253);
+}
+tr:hover{
+    background-color: #55f09b33;;
+}
+
+.color:nth-child(even){
+    background-color: #46d86a9c; 
+}
+.edit{
+    background: rgb(101, 86, 155);
+    padding: 10px 20px;
+    margin-top:5px;
+    border-radius: 10px;
+    
+}
+.delete{
+    background: rgb(236, 103, 103);
+    width: 50px;
+    height: 30px;
+    padding: 10px 20px;
+    margin-top:5px;
+    border-radius: 10px;
+}
+.edit:hover{
+    cursor: pointer;
+    background: rgb(169, 127, 197);
+
+}
+.form-img{
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.desactive-img{
+    display: none;  
+}
+
+/*Busqueda por tecnico*/
+.busqueda-tecnico{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-relleno{
+    width: 420em;
+}
+
+@media screen and (max-width:1200px) {
+    .table-th, .table-td, .mas-info{
+        font-size: 0.9em;
+     
+    }
+}

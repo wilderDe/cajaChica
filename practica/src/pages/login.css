@@ -1,0 +1,56 @@
+.fondo_log{
+    min-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url('/assets/fondoLogin.png');
+    background-repeat: no-repeat;   
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_log{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.form_log  h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 5em;
+}
+.form_inputs{
+    display: flex;
+    flex-direction: column;
+}
+.form_inputs label{
+    font-size: 1.5em;
+}
+.log_inputs{
+    padding: 7px;
+    margin: 10px 0 15px 0;
+    font-size: 1.4em;
+    outline: none;
+    border: none;
+    background: rgb(247, 239, 203);
+    box-shadow: 0 4px 5px 1px rgb(122, 122, 122);
+}
+.btn-log-div{
+    text-align: center;
+}
+.btn-log{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #fff;
+    background: #862F14;
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+.btn-log:hover{
+    background: #ad583e;  
+    cursor: pointer;  
+}
